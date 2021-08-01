@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="design.css"/>
+    
+    <title>Document</title>
+</head>
+<body>
+    <!-- Just an image -->
+<nav class="navbar navbar-light bg-muted">
+    <a class="navbar-brand" href="#">
+        <img alt="Codeforces" title="Codeforces" src="//codeforces.org/s/39571/images/codeforces-logo-with-telegram.png">
+    </a>
+    <div class="lang-chooser">
+        <div style="text-align: right;">
+            <a href="#"><img src="//codeforces.org/s/39571/images/flags/24/gb.png" title="In English" alt="In English"></a>
+            <a href="#"><img src="//codeforces.org/s/39571/images/flags/24/ru.png" title="По-русски" alt="По-русски"></a>
+        </div>
+        <div>
+            <a href="#">Enter</a>
+            <a href="#">Register</a>
+        </div>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-muted mx-4 pt-2" style="
+  border: 1px solid #b9b9b9">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">TOP <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Contents <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Gym <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">problemset<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#"> groups<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">rating<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">edu<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">api<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">help<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Deltix Rounds 2021<img class="icon" src="//st.codeforces.com/images/icons/cup.png"><span class="sr-only">(current)</span></a>
+        </li>
+        
+
+      </ul>
+    </div>
+    <form method="post" action="/search"><input type="hidden" name="csrf_token" value="74b8a3ad0f8efeaa02295869e744c466">
+        <input class="search" name="query" data-isplaceholder="true" value="">
+    <input type="hidden" name="_tta" value="386">
+    </form>
+  </nav>
+  <ul class="secondmenu" id="secondmenu">
+      <li>
+        <a class="nav-link back" href="#">Tourist</a> 
+      </li>
+      <li>
+        <a class="nav-link" href="#">blog</a>
+    </li>
+    <li>
+        <a class="nav-link" href="#">Teams</a>
+    </li>
+    <li>
+        <a class="nav-link" href="#">Submission</a>
+    </li>
+    <li>
+        <a class="nav-link" href="#">Submission</a>
+    </li>
+    <li>
+        <a class="nav-link" href="#">Groups</a>
+    </li>
+    <li>
+        <a class="nav-link" href="#">Contests</a>
+    </li>
+    <li>
+        <a class="nav-link" href="#">ProblemSetting</a>
+    </li>
+  </ul>
+  <div class="container-fluid " style="display: flex; justify-content: space-between ">
+      <div class="content mr-4" style="display: flex;flex-direction: column;">
+            <div class="box px-4 pt-4 m-2" style="border: 1px solid #b9b9b9;display: flex;flex-direction: row;min-width: 840px;justify-content: space-between;" >
+            
+                
+                <div class="info">
+                    <div class="first" style="display: flex;">
+                        <div class="badge"><img src="//codeforces.org/s/70493/images/badge-crowdfunding-2020.png" >
+                        </div>
+                        <div class="main-info main-info-has-badge">
+                            <div class="user-rank">
+                                <span class="user-legendary text-danger font-weight-bold">Legendary Grandmaster </span>
+                            </div>
+                            <h1>
+                            <a href="/profile/tourist" title="Legendary Grandmaster tourist" class="rated-user user-legendary" style="color: red;">
+                                <span class="legendary-user-first-letter" style="color:black">t</span>ourist</a>                </h1>
+            
+                            <div style="margin-top: 0.5em;">
+                            <div style="font-size: 0.8em; color: #777;">Gennady Korotkevich, <a href="/ratings/country/Belarus/city/Gomel" style="text-decoration: underline; color: #00c;">Gomel</a>, <a href="/ratings/country/Belarus"style="text-decoration: underline; color: #00c;">Belarus</a></div>
+                            <div style="font-size: 0.8em; color: #777;">From <a href="/ratings/organization/13" style="text-decoration: underline; color: #00c;">ITMO University</a></div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                    <ul class="pl-0 mt-2 mb-3">
+                        <li class="mt-2 mb-3"><img style="vertical-align:middle;margin-right:0.5em;" src="//codeforces.org/s/70493/images/icons/rating-24x24.png">
+                            Contest rating:
+                            <span style="font-weight:bold;" class="user-legendary">3822</span> <span class="smaller"> (max. <span style="font-weight:bold;" class="user-legendary">legendary grandmaster, </span> <span style="font-weight:bold;" class="user-legendary">3822</span>)</span>                    
+                        </li>
+                        <li class="mt-2 mb-3"><img style="vertical-align:middle;margin-right:0.5em;" src="//codeforces.org/s/70493/images/icons/star_blue_24.png" >
+                            Contribution:
+                            <span style="color:green;font-weight:bold;">+172</span>
+                        </li>
+                        <li class="mt-2 mb-3">
+                            <img style="vertical-align:middle;margin-right:0.5em;" src="//codeforces.org/s/70493/images/icons/star_yellow_24.png">
+                            Friend of: 35,928 users
+                        </li>
+                        <li class="mt-2 mb-3">    
+                            Last visit:
+                            <span class="format-humantime" title="Aug/01/2021 07:06 UTC+5.5">3 hours ago</span>                    
+                        </li>
+                        <li class="mt-2 mb-3">    
+                            Registered:
+                            <span class="format-humantime" title="Feb/12/2010 20:38 UTC+5.5">11 years ago</span>                    </li>
+                        <li class="mt-2 mb-3">
+                            <a href="/blog/tourist"><img style="vertical-align:middle;margin-right:0.5em;" src="//codeforces.org/s/70493/images/icons/blog.png"></a>                    
+                            <a href="/blog/tourist" style="text-decoration: underline; color: #00c;">Blog entries (32)</a>,
+                            <a href="/comments/with/tourist" style="text-decoration: underline; color: #00c;">comments</a>
+                        </li>
+                        <li class="mt-2 mb-3">
+                            <a href="/usertalk/with/tourist"><img style="vertical-align:middle;margin-right:0.5em;" src="//codeforces.org/s/70493/images/actions/mail_generic.png" alt="Your talks with tourist" title="Your talks with tourist"></a>
+                            <a href="/usertalk/with/tourist" style="text-decoration: underline; color: #00c;">Talks</a> |
+                            <a href="/usertalk?other=tourist" style="text-decoration: underline; color: #00c;">Send message</a>
+                        </li>
+                </ul>
+                </div>
+                <div class="photo" style="float:right;border:1px solid #B9B9B9;width:325px;height:325px;padding:12.5px;position: relative;margin-bottom: 1em;">
+                <div style="height: 100%;">
+                    <img style="margin:auto;vertical-align:middle;display:inline;" src="https://userpic.codeforces.org/422/title/50a270ed4a722867.jpg">
+                </div >
+                    <div class="badge" style="position:relative;right: -220px ;top:-30px"><img src="//codeforces.org/s/70493/images/badge-crowdfunding-2015.png" title="Badge of honor for supporting Codeforces on its 5th anniversary"></div>
+                    <div class="badge" style="position:relative;right: -50px ;top:-30px"><img src="//codeforces.org/s/70493/images/badge-crowdfunding-2018.png" title="Badge of honor for supporting Codeforces on its 8th anniversary"></div>
+                
+                </div>
+            </div>
+            <div class="box px-4 pt-5" >
+                efgh
+            </div>
+            <div class="box px-4 pt-5" >
+                efgh
+            </div>
+      </div>
+      <div class="sidebar">
+        <div class="table text-center">
+            <p class="text-left pb-0" style="color: #3b5998;font-size: 18px;font-weight: 700; border-bottom: 1px solid #b9b9b9;margin-bottom: 0.2em;">→ Pay attention
+            </p>
+            <p class="p-2 pb-0 mb-0" style="border-bottom: 1px solid #b9b9b9; ">
+            <span style="color: #3b5998;font-size: 18px;font-weight: 700;">
+            Before Contest</span>
+            <br>
+            <span><a style="text-decoration: underline; color: #00c;">Codeforces Round #736 [Div. 1] </a></span>
+            <br>
+            <span class="countdown notice" id="i1">16:46:41
+            </span>
+            <br>
+            <a href="/contestRegistration/1548" style="text-decoration: underline; color: #00c;">Register now »</a>
+            <br>
+            <span class="smaller notice" style="position: relative;top:-3px">*has extra registration<i class="icon-question-sign clickable-title" title="If you are late to register in 5 minutes before the start, you can register later during the extra registration. Extra registration opens 10 minutes after the contest starts and lasts 20 minutes." style="position: relative; bottom: 3px;"></i>
+            </span>
+            </p>
+            <p class="p-2" style="border-bottom: 1px solid #b9b9b9; ">
+                <span style="color: #3b5998;font-size: 18px;font-weight: 700;">
+                    Before Contest</span><br>
+                <span><a style="text-decoration: underline; color: #00c; font-size: 15px;">Codeforces Round #736 [Div. 2] </a></span>
+                <br>
+                <span class="countdown notice" id="i1" style="font-size: 15px;">16:46:41
+                </span>
+                <br>
+                <a href="/contestRegistration/1548" style="text-decoration: underline; color: #00c;font-size: 15px;">Register now »</a>
+                <br>
+                <span class="smaller notice" style="position: relative;top:-3px">*has extra registration<i class="icon-question-sign clickable-title" title="If you are late to register in 5 minutes before the start, you can register later during the extra registration. Extra registration opens 10 minutes after the contest starts and lasts 20 minutes." style="position: relative; bottom: 3px;"></i>
+                </span>
+                </p>
+            <div class="px-2">
+                <span class="_8f1i"><a href=""><img src="like.png" width="80px"></a></span>
+                <span id="u_0_3_aR" style="font-size: 12px; text-align:left; color: #1c1e21;">59 people like this. Be the first of your friends.</span>
+            </div>
+        </div>
+        <div class="table p-0">
+            <p class="text-left pb-0 mb-0" style="color: #3b5998;font-size: 18px;font-weight: 700; border-bottom: 1px solid #b9b9b9;margin-bottom: 0.2em;">→ Top Contributors
+            </p>
+            <table class="table table-bordered table-striped m-0 ">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">User</th>
+                    <th scope="col">Rating</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td class="user">Mark</td>
+                    <td>3811</td>
+                    </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td class="user">lorem</td>
+                    <td>4211</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td class="user">ipsum</td>
+                    <td>3211</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td class="user">Jacob</td>
+                    <td>5456</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td class="user">oacob</td>
+                    <td>3456</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td class="user">cob</td>
+                    <td>9874</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td class="user">Jaco</td>
+                    <td>3698</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td class="user">Lorem</td>
+                    <td>5462</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td class="user">cob</td>
+                    <td>9874</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td class="user">ipsum</td>
+                    <td>5462</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="text-decoration: underline; color: #00c;font-size: 12px;font-weight: 700;">
+                        <div class="bottom-links m-0 p-0 d-flex justify-content-between">
+                            <div>
+                                <a href="/ratings/countries">Countries</a> |
+                                <a href="/ratings/cities">Cities</a> |
+                                <a href="/ratings/organizations">Organizations</a>
+                            </div>
+                        <a href="/ratings">View all →</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="table p-0">
+            <p class="text-left pb-0 mb-0" style="color: #3b5998;font-size: 18px;font-weight: 700; border-bottom: 1px solid #b9b9b9;margin-bottom: 0.2em;">→ Top Contributors
+            </p>
+            <table class="table table-bordered table-striped m-0 ">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">User</th>
+                    <th scope="col">Rating</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td class="user">Mark</td>
+                    <td>3811</td>
+                    </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td class="user">lorem</td>
+                    <td>4211</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td class="user">ipsum</td>
+                    <td>3211</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td class="user">Jacob</td>
+                    <td>5456</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td class="user">oacob</td>
+                    <td>3456</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td class="user">cob</td>
+                    <td>9874</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td class="user">Jaco</td>
+                    <td>3698</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td class="user">Lorem</td>
+                    <td>5462</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td class="user">ipsum</td>
+                    <td>5462</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td class="user">Jaco</td>
+                    <td>3698</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="text-decoration: underline; color: #00c;font-size: 12px;font-weight: 700;">
+                        <div class="bottom-links m-0 p-0 d-flex justify-content-between">
+                            <div>
+                            </div>
+                        <a href="/ratings">View all →</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="table">
+            <p class="text-left pb-0 mb-0" style="color: #3b5998;font-size: 18px;font-weight: 700; border-bottom: 1px solid #b9b9b9;margin-bottom: 0.2em;">→ Find User
+            </p>
+            <form class="handleForm" method="post" autocomplete="off"><input type="hidden" name="csrf_token" value="65e987069da7539da91e978883e54667">
+                <div class="pb-1" style="padding:1em;text-align:right;">
+                    <label >Handle:
+                        <input style="width:12em;" type="text" class="handleBox ac_input" autocomplete="off">
+                    </label>
+                </div>
+                <div class="pb-0"style="padding: 0 1em 1em 1em;text-align:right;">
+                    <input style="height:1.65em;padding:0 0.75em;" type="submit" value="Find">
+                </div>
+            </form>
+        </div>
+        <div class="table pb-0">
+            <p class="text-left pb-0 mb-0" style="color: #3b5998;font-size: 18px;font-weight: 700; border-bottom: 1px solid #b9b9b9;margin-bottom: 0.2em;">→ Recent Actions
+            </p>
+            <table class="table table-striped pb-0 m-0">
+                <tbody>
+                    <td style="background-color: white;">
+                        <ul class="pl-0" id='last'>
+                            <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/Wgmlgz" title="Specialist Wgmlgz" class="rated-user text-success">Wgmlgz</a>        →
+                            <a href="/blog/entry/93213">Templated segment tree with any merge function</a>
+                            <img alt="Text created or updated" title="Text created or updated" src="//codeforces.org/s/54512/images/icons/x-update-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                            <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/nrg_aceu" title="Newbie nrg_aceu" class=" text-warning">nrg_aceu</a>        →
+                                    <a href="/blog/entry/93398">why google everything</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                            <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/IsaaMaster" title="Pupil IsaaMaster" class="rated-user text-danger">IsaaMaster</a>        →
+                                    <a href="/blog/entry/93399">Pypy3 Vs Python 3</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/chokudai" title="Grandmaster chokudai" class="rated-user text-danger">chokudai</a>        →
+                                    <a href="/blog/entry/93368">AtCoder Beginner Contest 212 Announcement</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/dhiraj-01" title="Specialist dhiraj-01" class="rated-user text-success">dhiraj-01</a>        →
+                                    <a href="/blog/entry/93377">Why TLE :( + Tips on how to avoid TLE :)</a>
+                            <img alt="Text created or updated" title="Text created or updated" src="//codeforces.org/s/54512/images/icons/x-update-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/Agnimandur" title="Master Agnimandur" class="rated-user text-primary">Agnimandur</a>        →
+                                    <a href="/blog/entry/93361">Codeforces Round #736</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/awoo" title="International Grandmaster awoo" class="rated-user text-danger">awoo</a>        →
+                                    <a href="/blog/entry/93389">Educational Codeforces Round 112 Editorial</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/Crescendo" title="Expert Crescendo" class="rated-user text-primary">Crescendo</a>        →
+                                    <a href="/blog/entry/93380">Can I take part in 2 contests at the same time?</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/codicon" title="Candidate Master codicon" class="rated-user text-success">codicon</a>        →
+                                    <a href="/blog/entry/92881">TeamsCode Summer 2021 Online Programming Contest</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/Stepavly" title="Candidate Master Stepavly" class="rated-user text-success">Stepavly</a>        →
+                                    <a href="/blog/entry/89007">Codeforces Round #710 (Div. 3) Editorial</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/pranaav" title="Specialist pranaav" class="rated-user text-success">pranaav</a>        →
+                                    <a href="/blog/entry/93390">Uber coding round</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/br0mabs" title="Expert br0mabs" class="rated-user text-primary">br0mabs</a>        →
+                                    <a href="/blog/entry/93268">DMOJ — An Animal Contest 3</a>
+                            <img alt="Text created or updated" title="Text created or updated" src="//codeforces.org/s/54512/images/icons/x-update-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/Balajiganapathi" title="Candidate Master Balajiganapathi" class="rated-user text-success">Balajiganapathi</a>        →
+                                    <a href="/blog/entry/75382">CodeDrills — A new online judge</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                                    <img alt="Necropost" title="Necropost" src="//codeforces.org/s/54512/images/icons/hourglass.png" style="vertical-align:middle; position: relative; top: 1px;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/Daenerys_Targaryen_1" title="Unrated, Daenerys_Targaryen_1" class="rated-user text-secondary">Daenerys_Targaryen_1</a>        →
+                                    <a href="/blog/entry/93393">Help With Upsolving of Online Round Questions</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/coding_is_fun" title="Unrated, coding_is_fun" class="rated-user text-secondary">coding_is_fun</a>        →
+                                    <a href="/blog/entry/55986">How to add image in a blog or comment ?</a>
+                            <img alt="Text created or updated" title="Text created or updated" src="//codeforces.org/s/54512/images/icons/x-update-12x12.png" style="vertical-align:middle;">
+                                    <img alt="Necropost" title="Necropost" src="//codeforces.org/s/54512/images/icons/hourglass.png" style="vertical-align:middle; position: relative; top: 1px;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/Al.Cash" title="Grandmaster Al.Cash" class="rated-user text-danger">Al.Cash</a>        →
+                                    <a href="/blog/entry/18051">Efficient and easy segment trees</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                                    <img alt="Necropost" title="Necropost" src="//codeforces.org/s/54512/images/icons/hourglass.png" style="vertical-align:middle; position: relative; top: 1px;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/supersonic11" title="Newbie supersonic11" class="rated-user text-warning">supersonic11</a>        →
+                                    <a href="/blog/entry/93376">Uber coding round Upsolve Help</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/radoslav11" title="Grandmaster radoslav11" class="rated-user text-danger">radoslav11</a>        →
+                                    <a href="/blog/entry/93378">Invitation to CodeChef July Lunchtime 2021 - Saturday, 31st July, 6 PM IST</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/taap_cader" title="Pupil taap_cader" class="rated-user text-danger">taap_cader</a>        →
+                                    <a href="/blog/entry/93395">ICPC Indian Regionals</a>
+                            <img alt="Text created or updated" title="Text created or updated" src="//codeforces.org/s/54512/images/icons/x-update-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/cip999" title="Master cip999" class="rated-user text-primary">cip999</a>        →
+                                    <a href="/blog/entry/93199">Editorial of Global Round 15</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/electro177" title="Newbie electro177" class="rated-user text-warning">electro177</a>        →
+                                    <a href="/blog/entry/93354">Doubts in questions</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/ajai_C_R_7_" title="Newbie ajai_C_R_7_" class="rated-user text-warning">ajai_C_R_7_</a>        →
+                                    <a href="/blog/entry/93392">Help needed in a N-ary tree problem — HackerRank - Just basic DFS </a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/awoo" title="International Grandmaster awoo" class="rated-user text-danger">awoo</a>        →
+                                    <a href="/blog/entry/93311">Educational Codeforces Round 112 [Rated for Div. 2]</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/ko_osaga" title="Legendary Grandmaster ko_osaga" class="rated-user user-legendary"><span class="legendary-user-first-letter">k</span>o_osaga</a>        →
+                                    <a href="/blog/entry/93391">TCO21 Round 4</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                            </div>
+                            </li>
+                                                    <li><div style="font-size:0.9em;padding:0.5em 0;">
+                            <a href="/profile/Taha1506" title="Expert Taha1506" class="rated-user text-primary">Taha1506</a>        →
+                                    <a href="/blog/entry/93348">Good string hashing template</a>
+                            <img alt="New comment(s)" title="New comment(s)" src="//codeforces.org/s/54512/images/icons/comment-12x12.png" style="vertical-align:middle;">
+                            </div>
+                    </li>
+                </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td  style="background-color:#d9d9d9;text-decoration: underline; color: #00c;font-size: 12px;font-weight: 700;">                        
+                    <div class="bottom-links m-0 p-0 d-flex justify-content-between">
+                    <div></div>
+                    <a href="/ratings">View all →</a></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+      </div>
+
+
+  </div>
+    <hr style="border:0.5px solid rgb(100, 95, 95)">
+    <div id="footer" class="text-center" style="font-weight: 500;">
+        <div><a href="#">Codeforces</a> (c) Copyright 2010-2021 Mike Mirzayanov</div>
+        <div>The only programming contests Web 2.0 platform</div>
+            <div>Server time: Aug/01/2021 12:15:13<sup style="font-size:8px;">UTC+5.5</sup> (i1).</div>
+            <div>Desktop version, switch to <a rel="nofollow" class="switchToMobile" href="?mobile=true">mobile version</a>.</div>
+        <div class="smaller"><a href="/privacy">Privacy Policy</a></div>
+
+            <div style="margin-top: 25px;">
+                Supported by
+            </div>
+            <div style="margin-top: 8px; padding-bottom: 20px; position: relative; left: 10px;">
+                <a href="https://telegram.org/"><img style="margin-right: 2em; width: 60px;" src="//codeforces.org/s/52689/images/telegram-100x100.png"></a>
+                <a href="http://ifmo.ru/en/"><img style="width: 120px;" src="//codeforces.org/s/52689/images/itmo_small_en-logo.png"></a>
+            </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+body
+{
+    width: 1200px;
+    padding-top:10.500px ;
+    margin: 0 auto;
+
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-link
+{
+    font-weight: 500;
+    font-family: cuprum,sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #000;
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    display: block;
+    float: left;
+    height: 45px;
+    overflow: hidden;
+    margin: 0;
+    line-height: 35px;
+
+}
+.secondmenu
+{
+    display: flex;
+    height: 40px;
+    position: relative;
+    left: -20px;
+    top:20px;
+}
+.secondmenu .nav-link
+{
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    height: auto;
+    top: 1px;
+    z-index: 10;
+    float: left;
+    display: block;
+    margin: auto 8px;
+    padding: 0 0;
+    font-family: pt sans narrow,sans-serif;
+}
+.back
+{
+    position: absolute;
+    display: block; 
+    margin: 0px; 
+    padding: 0px; 
+    left: 0px; 
+    top: 0px; 
+    width: 54px; 
+    height: 20px; 
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #b9b9b9;
+}
+
+.sidebar
+{
+    float: right;
+    position: relative;
+    
+}
+.table
+{
+    padding-bottom: 21px;
+    border: 1px solid #b9b9b9;
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px;
+}
+.smaller
+{
+    font-size: 10px;
+}
+.notice
+{
+    color: #888!important;
+}
+.user::first-letter
+{
+    color: black;
+}
+.user
+{
+    color:red;
+    font-weight: 700;
+}
+.table td, .table th 
+{
+    padding: 4px 5px;
+    text-align: center;
+} 
+#last a
+{
+    text-decoration: underline; 
+    color: #00c;
+    font-size: 12px;
+    font-weight: 700;
+}
